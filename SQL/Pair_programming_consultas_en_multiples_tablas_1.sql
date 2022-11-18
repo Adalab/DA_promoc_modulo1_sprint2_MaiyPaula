@@ -47,7 +47,6 @@ GROUP BY company_name, año;
 -- cantidad de dinero que han pedido por esa cantidad de objetos, teniendo en cuenta los 
 -- descuentos, etc. Ojo que los descuentos en nuestra tabla nos salen en porcentajes, 15% 
 -- nos sale como 0.15.
-
 SELECT company_name AS cliente, YEAR(order_date) AS año,  SUM(quantity) AS cantidad, 
 (unit_price*SUM(quantity))*(1-discount) AS dinero_total
 FROM orders
