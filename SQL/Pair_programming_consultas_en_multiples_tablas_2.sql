@@ -2,6 +2,7 @@ USE northwind;
 
 -- 1 Qué empresas tenemos en la BBDD Northwind:
 -- Lo primero que queremos hacer es obtener una consulta SQL que nos devuelva el nombre de todas las empresas cliente, los ID de sus pedidos y las fechas.
+# Seleccionamos el nombre de la empresa, el order_id y la feha del pedido y unimos las tablas con un left join.
 SELECT customers.company_name AS empresa, orders.order_id AS ID, orders.order_date AS fecha
 FROM customers
 	LEFT JOIN orders
