@@ -21,7 +21,10 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
    
    ---- Estos ejercicios contienen un desarrollo previo y defición de la función final está indicada tras un Markdown de ## SOLUCIÓN.----
     - Ejercicios obligatorios: pendiente ejercicio XML - revisar comentarios 
-- Expresiones regulares (REGEX): pendiente
+- Expresiones regulares (REGEX): 
+  Ejercicios con operadores comunes, sintáxis básicas, funciones de búsqueda de información, creación y uso de patrones de regex en python.
+   - Ejercicios obligatorios: Hechos y comentados.
+   - Bonus: Primera parte hecha, revisar la segunda.
 
 - Python + SQL 1: pendiente
 
@@ -44,7 +47,10 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
 
   Ejercicios de consultas uniendo tablas mediante los métodos UNION, UNION ALL, ORDER BY-LIMIT (sobre UNION y UNION ALL), IN-(INTERSECT), NOT IN-(EXCEPT)
     - Ejercicios obligatorios: hechos - revisar comentarios
-- Consultas en multiples tablas 4: pendiente
+- Consultas en multiples tablas 4:
+  Ejercicios de consultas en múltiples tablas con el uso de subconsultas y los métodos IN, NOT IN, ANY, ALL Y EXISTS.
+    - Ejercicios obligatorios: hechos y comentados.
+    - Bonus: hecho y comentado.
 
 - Consultas en multiples tablas 5: pendiente
 
