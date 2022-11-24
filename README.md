@@ -27,7 +27,12 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
    - Ejercicios obligatorios: Hechos y comentados.
    - Bonus: Primera parte hecha, revisar la segunda.
 
-- Python + SQL 1: pendiente
+- Python + SQL 1: 
+
+  Ejercicios de conexión a bases de datos a través de mysql connector desde python con consultas sobre estructura de las bases de datos y queries de selección.
+  Incluye dos ejercicios visualizados con DataFrame de Pandas
+  - Ejercicios obligatorios: Hechos y comentados. Pendiente revisar ejercicio número 3 en el pair programing del 25/11.
+
 
 - Python + SQL 2: pendiente
 
@@ -54,6 +59,9 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
     - Ejercicios obligatorios: hechos y comentados.
     - Bonus: hecho y comentado.
 
-- Consultas en multiples tablas 5: pendiente
+- Consultas en multiples tablas 5: 
+
+  Ejercicios de consultas en múltiples tablas con el uso de querys correlacionadas y busqueda de patrones a través de LIKE y NOT LIKE.
+    - Ejercicios obligatorios: hechos y comentados.
 
 - Simplificanto consultas con CTEs: pendiente
