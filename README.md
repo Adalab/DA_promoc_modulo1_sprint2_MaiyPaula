@@ -5,12 +5,12 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
 - Funciones intro:
 
   Ejercicios de definición básica de funciones combinando condicionales if, for loops y diccionarios.
-    - Ejercicios obligatorios: hechos - revisar comentarios
-    - BONUS: hechos - revisar comentarios
+    - Ejercicios obligatorios: hechos y comentados
+    - BONUS: hechos y comentados
 - Funciones 2 argumentos:
 
   Ejercicios definición de funciones con sentencias de control (if anidados, if, elif, for loops y while) junto con métodos de string y listas.
-    - Ejercicios obligatorios: hechos - revisar comentarios
+    - Ejercicios obligatorios: hechos y comentados
 - Clases:
 
    Ejercicio de definición de clases (instancias y métodos de clases) utilizando lo aplicado hasta ahora en los ejercicios anteriores de funciones.
@@ -31,7 +31,7 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
 
   Ejercicios de conexión a bases de datos a través de mysql connector desde python con consultas sobre estructura de las bases de datos y queries de selección.
   Incluye dos ejercicios visualizados con DataFrame de Pandas
-  - Ejercicios obligatorios: Hechos y comentados. Pendiente revisar ejercicio número 3 en el pair programing del 25/11.
+  - Ejercicios obligatorios: Hechos y comentados. 
 
 
 - Python + SQL 2: pendiente
