@@ -5,22 +5,22 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
 - Funciones intro:
 
   Ejercicios de definición básica de funciones combinando condicionales if, for loops y diccionarios.
-    - Ejercicios obligatorios: hechos y comentados
+    - Ejercicios obligatorios: hechos y comentados.
     - BONUS: hechos y comentados
 - Funciones 2 argumentos:
 
   Ejercicios definición de funciones con sentencias de control (if anidados, if, elif, for loops y while) junto con métodos de string y listas.
-    - Ejercicios obligatorios: hechos y comentados
+    - Ejercicios obligatorios: hechos y comentados.
 - Clases:
 
    Ejercicio de definición de clases (instancias y métodos de clases) utilizando lo aplicado hasta ahora en los ejercicios anteriores de funciones.
-    - Ejercicios obligatorios: hechos - revisar comentarios
+    - Ejercicios obligatorios: hechos y comentados.
 - Ficheros: 
 
    Ejercicios importación de librerias, movimiento por directorios a través de codigo de python. Definición de funciones para la apertura, creación y modificación de archivos de texto y análisis de archivo XML. 
    
    ---- Estos ejercicios contienen un desarrollo previo y defición de la función final está indicada tras un Markdown de ## SOLUCIÓN.----
-    - Ejercicios obligatorios: pendiente ejercicio XML - revisar comentarios 
+    - Ejercicios obligatorios: Hechos y comentados. 
 - Expresiones regulares (REGEX):
 
   Ejercicios con operadores comunes, sintáxis básicas, funciones de búsqueda de información, creación y uso de patrones de regex en python.
@@ -34,7 +34,11 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
   - Ejercicios obligatorios: Hechos y comentados. 
 
 
-- Python + SQL 2: pendiente
+- Python + SQL 2: 
+
+ Ejercicios de conexión a bases de datos a través de mysql connector desde python con consultas sobre estructura de las bases de datos y queries de selección.
+  Incluye dos ejercicios visualizados con DataFrame de Pandas
+  - Ejercicios obligatorios: Hechos y comentados. 
 
 ## SQL 
 - Consultas avanzadas 2:
