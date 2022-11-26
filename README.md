@@ -33,6 +33,7 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
 
 
 - Python + SQL 2: 
+
   Ejercicios de creación de bases de datos y tablas usando MySQLconnector/Python
  Ejercicios
   - Ejercicios obligatorios: Hechos y comentados. 
