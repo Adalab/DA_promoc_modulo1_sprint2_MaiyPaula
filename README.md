@@ -23,7 +23,7 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
 
   Ejercicios con operadores comunes, sintáxis básicas, funciones de búsqueda de información, creación y uso de patrones de regex en python.
    - Ejercicios obligatorios: hechos y comentados.
-   - Bonus: Hecho y comentado.
+   - Bonus: hecho y comentado.
 
 - Python + SQL 1: 
 
