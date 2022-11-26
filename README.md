@@ -50,7 +50,7 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
 - Consultas en multiples tablas 2:
 
   Ejercicios de consultas uniendo tablas mediante los métodos LEFT JOIN, RIGT JOIN, FULL(OUTER)JOIN-UNION, SELF JOIN
-    - Ejercicios obligatorios: hechos - revisar comentarios
+    - Ejercicios obligatorios: hechos y comentados
 - Consultas en multiples tablas 3:
 
   Ejercicios de consultas uniendo tablas mediante los métodos UNION, UNION ALL, ORDER BY-LIMIT (sobre UNION y UNION ALL), IN-(INTERSECT), NOT IN-(EXCEPT)
