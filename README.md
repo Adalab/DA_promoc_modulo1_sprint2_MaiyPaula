@@ -6,7 +6,7 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
 
   Ejercicios de definición básica de funciones combinando condicionales if, for loops y diccionarios.
     - Ejercicios obligatorios: hechos y comentados.
-    - BONUS: hechos y comentados
+    - BONUS: hechos y comentados.
 - Funciones 2 argumentos:
 
   Ejercicios definición de funciones con sentencias de control (if anidados, if, elif, for loops y while) junto con métodos de string y listas.
