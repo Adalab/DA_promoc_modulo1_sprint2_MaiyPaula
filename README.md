@@ -18,14 +18,12 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
 - Ficheros: 
 
    Ejercicios importación de librerias, movimiento por directorios a través de codigo de python. Definición de funciones para la apertura, creación y modificación de archivos de texto y análisis de archivo XML. 
-   
-   ---- Estos ejercicios contienen un desarrollo previo y defición de la función final está indicada tras un Markdown de ## SOLUCIÓN.----
     - Ejercicios obligatorios: Hechos y comentados. 
 - Expresiones regulares (REGEX):
 
   Ejercicios con operadores comunes, sintáxis básicas, funciones de búsqueda de información, creación y uso de patrones de regex en python.
    - Ejercicios obligatorios: Hechos y comentados.
-   - Bonus: Primera parte hecha, revisar la segunda.
+   - Bonus: Hecho y comentado.
 
 - Python + SQL 1: 
 
@@ -35,9 +33,8 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
 
 
 - Python + SQL 2: 
-
- Ejercicios de conexión a bases de datos a través de mysql connector desde python con consultas sobre estructura de las bases de datos y queries de selección.
-  Incluye dos ejercicios visualizados con DataFrame de Pandas
+  Ejercicios de creación de bases de datos y tablas usando MySQLconnector/Python
+ Ejercicios
   - Ejercicios obligatorios: Hechos y comentados. 
 
 ## SQL 
