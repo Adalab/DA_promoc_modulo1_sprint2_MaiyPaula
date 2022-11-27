@@ -18,25 +18,25 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
 - Ficheros: 
 
    Ejercicios importación de librerias, movimiento por directorios a través de codigo de python. Definición de funciones para la apertura, creación y modificación de archivos de texto y análisis de archivo XML. 
-    - Ejercicios obligatorios: Hechos y comentados. 
+    - Ejercicios obligatorios: hechos y comentados. 
 - Expresiones regulares (REGEX):
 
   Ejercicios con operadores comunes, sintáxis básicas, funciones de búsqueda de información, creación y uso de patrones de regex en python.
-   - Ejercicios obligatorios: Hechos y comentados.
-   - Bonus: Hecho y comentado.
+   - Ejercicios obligatorios: hechos y comentados.
+   - Bonus: hecho y comentado.
 
 - Python + SQL 1: 
 
   Ejercicios de conexión a bases de datos a través de mysql connector desde python con consultas sobre estructura de las bases de datos y queries de selección.
   Incluye dos ejercicios visualizados con DataFrame de Pandas
-  - Ejercicios obligatorios: Hechos y comentados. 
+  - Ejercicios obligatorios: hechos y comentados. 
 
 
 - Python + SQL 2: 
 
   Ejercicios de creación de bases de datos y tablas usando MySQLconnector/Python
  Ejercicios
-  - Ejercicios obligatorios: Hechos y comentados. 
+  - Ejercicios obligatorios: hechos y comentados. 
 
 ## SQL 
 - Consultas avanzadas 2:
@@ -50,7 +50,7 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
 - Consultas en multiples tablas 2:
 
   Ejercicios de consultas uniendo tablas mediante los métodos LEFT JOIN, RIGT JOIN, FULL(OUTER)JOIN-UNION, SELF JOIN
-    - Ejercicios obligatorios: hechos - revisar comentarios
+    - Ejercicios obligatorios: hechos y comentados
 - Consultas en multiples tablas 3:
 
   Ejercicios de consultas uniendo tablas mediante los métodos UNION, UNION ALL, ORDER BY-LIMIT (sobre UNION y UNION ALL), IN-(INTERSECT), NOT IN-(EXCEPT)
