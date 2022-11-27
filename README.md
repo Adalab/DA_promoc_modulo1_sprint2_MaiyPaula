@@ -42,11 +42,13 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
 - Consultas avanzadas 2:
 
   Ejercicios de usos de queries GROUP BY, HAVING y CASE.
-    - Ejercicios obligatorios: hechos - revisar comentarios
+    - Ejercicios obligatorios: hechos y comentados
 - Consultas en multiples tablas 1:
 
   Ejercicios de consultas uniendo tablas mediante los métodos INNER JOIN(con ON y USING), NATURAL JOIN, CROSS JOIN.
-    - Ejercicios obligatorios: hechos - revisar comentarios
+    - Ejercicios obligatorios: hechos y comentados
+    - Bonus: hechos y comentados.
+    
 - Consultas en multiples tablas 2:
 
   Ejercicios de consultas uniendo tablas mediante los métodos LEFT JOIN, RIGT JOIN, FULL(OUTER)JOIN-UNION, SELF JOIN
