@@ -54,7 +54,7 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
 - Consultas en multiples tablas 3:
 
   Ejercicios de consultas uniendo tablas mediante los métodos UNION, UNION ALL, ORDER BY-LIMIT (sobre UNION y UNION ALL), IN-(INTERSECT), NOT IN-(EXCEPT)
-    - Ejercicios obligatorios: hechos - revisar comentarios
+    - Ejercicios obligatorios: hechos y comentados.
 - Consultas en multiples tablas 4:
 
   Ejercicios de consultas en múltiples tablas con el uso de subconsultas y los métodos IN, NOT IN, ANY, ALL Y EXISTS.
@@ -69,4 +69,4 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
 - Simplificanto consultas con CTE's:
   
   Ejercicios de consultas en múltiples tablas con el uso de CTE's
-    - Ejercicios obligatorios: hechos y comentados
+    - Ejercicios obligatorios: hechos y comentados.
