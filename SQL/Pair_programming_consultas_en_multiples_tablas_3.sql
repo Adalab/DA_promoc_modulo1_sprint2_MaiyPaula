@@ -1,12 +1,5 @@
 -- EJERCICIOS PAIR PROGRAMMING CONSULTAS EN MULTIPLES TABLAS 3 --
 
-/* En esta lección de pair programming vamos a continuar trabajando sobre la base de datos Northwind.
-Hoy prondremos en práctica sentencias como UNION, UNION ALL, INTERSECT o EXCEPT.
-Para esta práctica te hara falta crear en algunos de los ejercicios una columna temporal.
-Para ver como funciona esta creación de columnas temporales prueba el siguiente código:
-SELECT  'Hola!'  AS tipo_nombre
-FROM customers; */
-
 USE northwind;
 
 /* 1) Extraer toda la información sobre las compañias que tengamos en la BBDD
@@ -15,7 +8,12 @@ que tenemos en la BBDD. Mostrad la ciudad a la que pertenecen, el nombre de la e
 contacto, además de la relación (Proveedor o Cliente). Pero importante! No debe haber duplicados en 
 nuestra respuesta. La columna Relationship no existe y debe ser creada como columna temporal. Para 
 ello añade el valor que le quieras dar al campo y utilizada como alias Relationship.
-Nota: Deberás crear esta columna temporal en cada instrucción SELECT */
+Nota: Deberás crear esta columna temporal en cada instrucción SELECT 
+[Código:(SELECT 'Hola!' AS tipo_nombre FROM customers)];*/
+
+-- Seleccionamos el nombre de la compañia y el nombre de contacto atribuyendo alias a las columnas, 
+-- creando la columna temporal de Relationship, utilizando la instrucción union para combinar los 
+-- resultados de los selects de las tablas customers y suppliers sin que haya duplicados.
 
 SELECT company_name AS 'Nombre empresa' , contact_name AS 'Nombre contacto', 'Cliente' AS Relationship
 FROM customers
@@ -28,6 +26,9 @@ FROM suppliers;
 En este caso, nuestro jefe quiere saber cuantos pedidos ha gestionado "Nancy Davolio", una de nuestras 
 empleadas. Nos pide todos los detalles tramitados por ella.*/
 
+-- Seleccionamos todos los resultados de la tabla orders combinando con la tabla employees con la instrucción 
+-- where que no devuelve duplicados, filtrando por el nombre de Nancy Davolio.
+
 SELECT* 
 FROM orders
 WHERE employee_id IN(
@@ -38,6 +39,10 @@ WHERE employee_id IN(
 /* 3) Extraed todas las empresas que no han comprado en el año 1997
 Para extraer el año de una fecha, podemos usar el estamento year */
 
+-- Seleccionamos las empresas de la tabla customers combinando con la tabla orders con la instrucción not in 
+-- para filtar por las que no han hecho pedidos en el año 1997. Utilizamos la función agregada year para 
+-- extraer el año de la fecha.
+
 SELECT company_name AS Empresas
 FROM customers
 WHERE customer_id NOT IN(
@@ -45,11 +50,13 @@ WHERE customer_id NOT IN(
 	FROM orders WHERE YEAR(order_date) = 1997);
 	
 
-
 /* 4) Extraed toda la información de los pedidos donde tengamos "Konbu"
 Estamos muy interesados en saber como ha sido la evolución de la venta de Konbu a lo largo del tiempo. 
 En esta query tendremos que combinar conocimientos adquiridos en las lecciones anteriores como por ejemplo 
 el INNER JOIN. */
+
+-- Seleccionamos toda la información de la tabla orders, combinando con un inner join con la tabla order_details 
+-- y con using para no duplicar y filtrar por el id_order donde el nombre del producto sea Konbu.
 
 SELECT*
 FROM orders
