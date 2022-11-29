@@ -68,7 +68,7 @@ Repositorio para los ejercicios de python y SQL de los pair-programing del sprin
   Ejercicios de consultas en múltiples tablas con el uso de querys correlacionadas y busqueda de patrones a través de LIKE y NOT LIKE.
     - Ejercicios obligatorios: hechos y comentados.
 
-- Simplificanto consultas con CTE's:
+- Simplificando consultas con CTE's:
   
   Ejercicios de consultas en múltiples tablas con el uso de CTE's
     - Ejercicios obligatorios: hechos y comentados.
