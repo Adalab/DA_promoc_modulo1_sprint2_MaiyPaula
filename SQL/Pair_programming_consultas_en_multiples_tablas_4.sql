@@ -28,7 +28,7 @@ para buscar proveedores adicionales. */
 SELECT country
 FROM customers
 GROUP BY country
-HAVING country NOT IN(
+WHERE country NOT IN(
 					SELECT country
                     FROM suppliers);
 
